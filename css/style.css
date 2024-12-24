@@ -255,6 +255,8 @@ a[href^="https"] {
   letter-spacing: 0.48px;
   background-color: var(--primary-color);
   border: none;
+  background-color: var(--team-background-color);
+  padding: 6px 22px 6px 22px;
 }
 .categories-button:hover {
   color: var(--primary-color);
@@ -266,6 +268,7 @@ a[href^="https"] {
   letter-spacing: 0.48px;
   background-color: var(--button-backgrouhd-color);
 }
+
 .content-subtitle {
   color: var(--max-text-color);
   font-family: "Roboto";
@@ -273,6 +276,7 @@ a[href^="https"] {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
+  padding: 24px 20px 0px 24px;
 }
 .content-list {
   display: flex;
@@ -280,8 +284,8 @@ a[href^="https"] {
   flex-wrap: wrap;
   gap: 30px;
 }
-.content-image{
-  margin-bottom: 20px;
+.image{
+border: 1px solid #EEE;
 }
 .content-subtitle{
   margin-bottom: 4px;
@@ -293,6 +297,7 @@ a[href^="https"] {
   font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.48px;
+  padding: 4px 24px 24px 20px
 }
 /* footer */
 .footer-link {
