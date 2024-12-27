@@ -276,7 +276,6 @@ a[href^="https"] {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
-  padding: 24px 20px 0px 24px;
 }
 .content-list {
   display: flex;
@@ -286,6 +285,7 @@ a[href^="https"] {
 }
 .image{
 border: 1px solid #EEE;
+padding: 24px 20px 0px 24px;
 }
 .content-subtitle{
   margin-bottom: 4px;
